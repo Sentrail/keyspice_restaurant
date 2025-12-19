@@ -1,0 +1,39 @@
+/* Tailwind CDN base + config */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tailwind custom config (moved from inline script) */
+@layer base {
+    :root {
+        --brand-orange: #D97706;
+        --brand-dark: #1F2937;
+        --brand-light: #FFFBEB;
+        --brand-green: #059669;
+    }
+}
+
+@layer components {
+    .text-brand-orange { color: var(--brand-orange); }
+    .bg-brand-orange { background-color: var(--brand-orange); }
+    .text-brand-dark { color: var(--brand-dark); }
+    .bg-brand-dark { background-color: var(--brand-dark); }
+    .bg-brand-light { background-color: var(--brand-light); }
+    .hover\:bg-brand-orange:hover { background-color: var(--brand-orange); }
+    /* Add more as needed for consistency */
+}
+
+@layer utilities {
+    .hero-bg {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+    }
+    .scroll-smooth {
+        scroll-behavior: smooth;
+    }
+}
+
+/* Custom font families (extended from Tailwind config) */
+.font-serif { font-family: 'Playfair Display', serif; }
+.font-sans { font-family: 'Poppins', sans-serif; }
