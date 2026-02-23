@@ -149,7 +149,7 @@
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2 relative">
-                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Restaurant Interior" class="rounded-2xl shadow-2xl w-full object-cover h-96">
+                    <img src="/images/bg2.png" alt="Restaurant Interior" class="rounded-2xl shadow-2xl w-full object-cover h-96">
                     <div class="absolute -bottom-6 -right-6 bg-brand-orange text-white p-6 rounded-xl shadow-lg hidden md:block">
                         <p class="text-3xl font-bold font-serif">24/7</p>
                         <p class="text-sm">Always Open</p>
