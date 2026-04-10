@@ -405,6 +405,7 @@
             </div>
             <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
                 <p>&copy; 2025 Keyspice Restaurant & Bar. All rights reserved.</p>
+                <p class="mt-4 md:mt-0">Built by <a href="https://myportfolio-six-sepia.vercel.app/" target="_blank" class="text-gray-400 hover:text-gray-300">Sentry Developer Studio</a></p>
                 <div class="flex space-x-4 mt-4 md:mt-0">
                     <a href="#" class="hover:text-brand-orange"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="hover:text-brand-orange"><i class="fab fa-instagram"></i></a>
